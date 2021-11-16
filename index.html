@@ -48,7 +48,7 @@
           <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
             href="https://linkedin.com/in/chuong-tang" target="_blank">
             <!-- Icon -->
-            <i class="lg:text-gray-300 text-gray-500 fab fa-linkedin-in text-lg leading-lg "></i>
+            <i class="lg:text-gray-300 text-white fab fa-linkedin-in text-lg leading-lg "></i>
             <span class="lg:hidden inline-block ml-2">Share</span>
           </a>
         </li>
@@ -539,125 +539,181 @@
         <!-- Text Box -->
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold">Here are my other projects</h2>
+            <h2 class="text-4xl font-semibold">What others say about my works</h2>
             <p class="text-lg leading-relaxed m-4 text-gray-600">
-              Click on <i class="fab fa-github"></i> to check the source code and click <i class="fas fa-globe"></i> will take you to the demo page.
+              Hover on <i class="fas fa-comment-dots text-orange-500"></i> to see the comments and click <i class="fab fa-linkedin text-orange-500"></i> to connect.
             </p>
           </div>
         </div>
-        <!-- Flex Row Container -->
+        <!-- FeedBack section -->
         <div class="flex flex-wrap">
-          <!-- Item -->
+          <!-- Feedback 1 -->
           <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
-              <img alt="Unplash API" src="./img/UnsplashAPI.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="Margo picture" src="./img/Margo.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Infinite Scroll</h5>
+                <h5 class="text-xl font-bold">Margo Purcell</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Bring you beautiful photos from UNplash
+                  CEO, Co-founder InceptionU
                 </p>
                 <!-- Buttons -->
                 <div class="mt-6">
-                  <button
-                    class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="Code on GitHub" onclick="openLinktoNewPage (gitName,0);">
-                    <!-- Icon -->
-                    <i class="fab fa-github"></i>
-                  </button>
+                  <!-- Feeback1 start -->
+                  <div class="flex flex-wrap">
+                    <div class="w-full text-center">
+                      <button  class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 text-white active:bg-orange-600 font-bold uppercase text-sm rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onmouseenter="openPopover(event,'popover-1')" onmouseleave="openPopover(event,'popover-1')">
+                        <i class="fas fa-comment-dots"></i>
+                      </button>
+                      <div class="hidden bg-blueGray-600 border-0 mt-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-1">
+                        <div>
+                          <div class="bg-blueGray-600 text-white font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+                            He demonstrated leadership in all of the teams and projects he was on.
+                          </div>
+                          <div class="text-white p-3">
+                            Chuong has incredible attention to detail, curiosity about the product as well as the user and seeks to understand prior to offering a solution so that what gets built and implemented actually solves the problem. He was a fantastic mentor to others, generous of his time and capability and humble in his endeavours meaning he was always learning and open to input.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+      
                   <button
                     class="bg-gray-300 text-orange-500 w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="See Live" onclick="openLinktoNewPage (liveName,0);">
+                    type="button" title="Connect via LinkedIn" onclick="parent.open('https://www.linkedin.com/in/margopurcell')">
                     <!-- Icon -->
-                    <i class="fas fa-globe"></i>
+                    <i class="fab fa-linkedin"></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="600">
+          <!-- Feedback 2 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
-              <img alt="Joke teller" src="./img/JokeTeller.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="Unplash API" src="./img/Gary.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Joke Machine</h5>
+                <h5 class="text-xl font-bold">Gary Hagerty</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  A robot that crack joke to cheer you up.
+                  Principal- Madstone Consulting.
                 </p>
                 <!-- Buttons -->
                 <div class="mt-6">
-                  <button
-                    class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="Code on GitHub" onclick="openLinktoNewPage (gitName,1);">
-                    <!-- Icon -->
-                    <i class="fab fa-github"></i>
-                  </button>
+                  <!-- Feeback1 start -->
+                  <div class="flex flex-wrap">
+                    <div class="w-full text-center">
+                      <button  class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 text-white active:bg-orange-600 font-bold uppercase text-sm rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onmouseenter="openPopover(event,'popover-2')" onmouseleave="openPopover(event,'popover-2')">
+                        <i class="fas fa-comment-dots"></i>
+                      </button>
+                      <div class="hidden bg-blueGray-600 border-0 mt-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-2">
+                        <div>
+                          <div class="bg-blueGray-600 text-white font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+                            In my experience working with him on several projects, he is one of the best people to have as a partner.
+                          </div>
+                          <div class="text-white p-3">
+                            Chuong has the ability to handle even the toughest projects and team dynamics effortlessly.  That skill often takes years to develop among software development professionals. He also has a neverending work ethic and desire to learn. Combined, these traits made him key to our team and also a resource requested to help with other teams.  His style is supportive and puts people at ease.  It all seems to come perfectly naturally to him.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+      
                   <button
                     class="bg-gray-300 text-orange-500 w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="See Live" onclick="openLinktoNewPage (liveName,1);">
+                    type="button" title="Connect via LinkedIn" onclick="parent.open('https://www.linkedin.com/in/gwhagerty')">
                     <!-- Icon -->
-                    <i class="fas fa-globe"></i>
+                    <i class="fab fa-linkedin"></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="1200">
+          <!-- Feedback 3 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
-              <img alt="Countdown" src="./img/Countdown.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="Unplash API" src="./img/Osric.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Event Countdown</h5>
+                <h5 class="text-xl font-bold">Osric Dhoubhadel</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  Cool utility for any event that you want to track.
+                  Contract Analyst BC Public Services 
                 </p>
                 <!-- Buttons -->
                 <div class="mt-6">
-                  <button
-                    class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="Code on GitHub" onclick="openLinktoNewPage (gitName,2);">
-                    <!-- Icon -->
-                    <i class="fab fa-github"></i>
-                  </button>
+                  <!-- Feeback1 start -->
+                  <div class="flex flex-wrap">
+                    <div class="w-full text-center">
+                      <button  class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 text-white active:bg-orange-600 font-bold uppercase text-sm rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onmouseenter="openPopover(event,'popover-3')" onmouseleave="openPopover(event,'popover-3')">
+                        <i class="fas fa-comment-dots"></i>
+                      </button>
+                      <div class="hidden bg-blueGray-600 border-0 mt-3 block z-50 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-3">
+                        <div>
+                          <div class="bg-blueGray-600 text-white font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+                            It was an amazing experience working with Chuong.
+                          </div>
+                          <div class="text-white p-3">
+                            He is very passionate about his work and a very fast learner. I was quite amazed at how quickly he was able to gain expertise in the technology.<br>Best of all, working with him was fun and a very pleasant experience and he would be a great asset to any team, from both technical and non-technical perspective.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+      
                   <button
                     class="bg-gray-300 text-orange-500 w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="See Live" onclick="openLinktoNewPage (liveName,2);">
+                    type="button" title="Connect via LinkedIn" onclick="parent.open('https://www.linkedin.com/in/osric-dhoubhadel')">
                     <!-- Icon -->
-                    <i class="fas fa-globe"></i>
+                    <i class="fab fa-linkedin"></i>
                   </button>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="1600">
+          <!-- Feedback 4 -->
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
-              <img alt="light Dark Mode" src="./img/LightDark.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
+              <img alt="Unplash API" src="./img/JackLi.jpg" class="shadow-lg rounded-full max-w-full mx-auto"
                 style="max-width: 120px;" />
               <div class="pt-6 text-center">
-                <h5 class="text-xl font-bold">Toggle Page mode</h5>
+                <h5 class="text-xl font-bold">Jack Zeya Li</h5>
                 <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
-                  switching CSS variable to toggle light and dark mode.
+                  Developer at Aimsio
                 </p>
                 <!-- Buttons -->
                 <div class="mt-6">
-                  <button
-                    class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="Code on GitHub" onclick="openLinktoNewPage (gitName,3);">
-                    <!-- Icon -->
-                    <i class="fab fa-github"></i>
-                  </button>
+                  <!-- Feeback1 start -->
+                  <div class="flex flex-wrap">
+                    <div class="w-full text-center">
+                      <button  class="bg-orange-500 text-white w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1 text-white active:bg-orange-600 font-bold uppercase text-sm rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onmouseenter="openPopover(event,'popover-4')" onmouseleave="openPopover(event,'popover-4')">
+                        <i class="fas fa-comment-dots"></i>
+                      </button>
+                      <div class="hidden bg-blueGray-600 border-0 mt-3 block z-40 font-normal leading-normal text-sm max-w-xs text-left no-underline break-words rounded-lg" id="popover-4">
+                        <div>
+                          <div class="bg-blueGray-600 text-white font-semibold p-3 mb-0 border-b border-solid border-blueGray-100 uppercase rounded-t-lg">
+                            Chuong is very supportive and strong in problems solving.
+                          </div>
+                          <div class="text-white p-3">
+                            We worked closely on an E-Commerce application. He shows ownership, initiative, fast-learning, collaboration spirit. We had a great team working experience together, he is very supportive. He also shows strong ability in problem solving, he self-learned lots of new technology and was able to implement into our project. Highly recommend him to any software companies.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+      
                   <button
                     class="bg-gray-300 text-orange-500 w-8 h-8 rounded-full outline-none focus:outline-none mr-1 mb-1"
-                    type="button" title="See Live" onclick="openLinktoNewPage (liveName,3);">
-                    <!-- Icon -->
-                    <i class="fas fa-globe"></i>
+                    type="button" title="Connect via LinkedIn" onclick="parent.open('https://ca.linkedin.com/in/jacklizeya')">
+
+                    <i class="fab fa-linkedin"></i>
                   </button>
                 </div>
               </div>
@@ -684,8 +740,8 @@
         <!-- Text Box -->
         <div class="flex flex-wrap text-center justify-center">
           <div class="w-full lg:w-6/12 px-4">
-            <h2 class="text-4xl font-semibold text-white">Pursuits: Full Stack and Blockchains Developer</h2>
-            <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
+            <h2 class="text-4xl flex font-semibold text-white">What's next ? Blockchains Developer <img src="./img/celebrate.svg" class="w-8" alt="celebrate animation" /></h2>
+            <p class="text-lg leading-relaxed mt-4 mb-4 text-white">
               "Steady as she goes!" & "full-ahead!" <br>These are the past and current pilots help steer my learning to the right
               course.
             </p>
@@ -703,10 +759,10 @@
             <h5 class="text-xl mt-5 font-semibold text-white">
               <a class="hover:bg-orange-500" href='https://www.inceptionu.com/' target="_blank">InceptionU</a>
             </h5>
-            <p class="mt-2 mb-4 text-gray-500 text-align">
+            <p class="mt-2 mb-4 text-white text-align">
               A place of meaningful learning. The kind that will stick with you and enable you to be fit for the future without fearing it. 
             </p>
-            <p class="mt-2 mb-4 text-gray-500 text-align">
+            <p class="mt-2 mb-4 text-white text-align">
               Programming is integrated with coaching of non-technical skills such as; design thinking,
               entrepreneurial thinking, critical thinking, systems thinking, creative, user experience.
             </p>
@@ -721,11 +777,11 @@
             <h5 class="text-xl mt-5 font-semibold text-white">
               Buildspace.so
             </h5>
-            <p class="mt-2 mb-4 text-gray-500">
+            <p class="mt-2 mb-4 text-white">
               From full-stack to D-app developer!
               
             </p>
-            <p class="mt-2 mb-4 text-gray-500">
+            <p class="mt-2 mb-4 text-white">
               Where devs jump from web2 to web3.
               <br>
               If you're a software developer who's curious about web3 but not sure where to start -- this is the spot for you. Learn + start building cool stuff, deployed your work onto blockchain and earn NFTs.
@@ -739,7 +795,7 @@
             </div>
             <!-- Text Box -->
             <h5 class="text-xl mt-5 font-semibold text-white">freeCodeCamp</h5>
-            <p class="mt-2 mb-4 text-gray-500">
+            <p class="mt-2 mb-4 text-white">
               freeCodeCamp is an excellent resource for self-learners with many free hands-on courses. <br>I enjoy the
               good quality knowledge-sharing on their blogs and I use this resourse to enhance my coding experience.
             </p>
@@ -787,12 +843,15 @@
           <div class="flex flex-wrap items-top mb-6">
             <!-- List 1 -->
             <div class="w-full lg:w-4/12 px-4 ml-auto">
-              <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">My work experiences prior to
-                coding</span>
+              <span class="block flex text-gray-600 text-sm font-semibold mb-2"><img src="./img/nicelybuilt.svg", alt="built animation" class="w-6"> Nicely built with:</span>
               <ul class="list-unstyled">
                 <li>
-                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                    href="https://chuongtang.github.io/CTangResume/">Check out my resume</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm hover:bg-orange-500"
+                    href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/presentation" target="_blank">Tailwind Starter-kit</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm hover:bg-orange-500"
+                    href="https://github.com/michalsnik/aos" target="_blank">Animate on scroll library</a>
+                  <a class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm hover:bg-orange-500"
+                    href="https://fontawesome.com/" target="_blank">Font Awesome</a>
                 </li>
               </ul>
             </div>
@@ -836,6 +895,7 @@
     document.getElementById(collapseID).classList.toggle("block");
   }
 </script>
+<script src="https://unpkg.com/@popperjs/core@2.9.1/dist/umd/popper.min.js" charset="utf-8"></script>
 <script src="script.js"></script>
 
 </html>
