@@ -1,0 +1,9 @@
+a[target="_blank"]:not([href*="pages.dev"])::after { 
+  content: '';
+  display: inline-block;
+  background: transparent url('/img/click.svg') no-repeat center center;
+  background-size: cover;
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.3rem;
+}
